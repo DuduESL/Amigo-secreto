@@ -1,6 +1,5 @@
 let lista = [];
 
-
 function adicionarAmigo() {
     let nome = document.querySelector('input').value;
 
@@ -21,6 +20,18 @@ function adicionarAmigo() {
     atualizarLista();
 }
 
+function atualizarLista(){
+    let listaAmigos = document.getElementById("listaAmigos");
+    listaAmigos.innerHTML = '';
+
+    for(let i = 0; i < lista.length; i++){
+        let item = document.createElement("li");
+        item.textContent = lista[i];
+        listaAmigos.appendChild(item);
+    }
+
+}
+
 function limpaCampo() {
     nome = document.querySelector('input');
     nome.value = '';
@@ -36,18 +47,10 @@ function sortearAmigo() {
     let resultado = document.getElementById('resultado');
     resultado.innerHTML = `O amigo sorteado foi : ${sorteado}`;
 
-    
-}
-
-function atualizarLista(){
-    let listaAmigos = document.getElementById("listaAmigos");
-    listaAmigos.innerHTML = '';
-
-    for(let i = 0; i < nome.length; i++){
-        let item = document.createElement("li");
-        item.textContent = nome[i];
-        listaAmigos.appendChild(item);
-    }
+    nomeInput.addEventListener("keyup", function(event) {
+        if (event.key === "Enter") {
+            adicionarAmigo();
+        }
+    });
 
 }
-
