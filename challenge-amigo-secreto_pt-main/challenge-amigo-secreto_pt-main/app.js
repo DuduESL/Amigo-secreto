@@ -37,10 +37,6 @@ function sortearAmigo() {
     resultado.innerHTML = `O amigo sorteado foi : ${sorteado}`;
 
     
-    /*if (lista.length < 2){
-        alert( 'É necessário pelo menos 2 participantes para o sorteio.');
-        
-    }  */
 }
 
 function atualizarLista(){
