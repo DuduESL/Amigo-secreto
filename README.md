@@ -6,8 +6,9 @@
   <li>Depois foi criada uma função para sortear os amigos</li>
 </ul>
 <br>
-<p>Tecnologias usadas</p>
-
+<h3>Descrição do projeto</h3>
+<p>Os arquivos HTML e CSS já estavam prontos. Só tive que criar o código em Javascript. Com o uso de versionamento de código, foram feitos os commits necessários</p>
+<h3>Tecnologias usadas:</h3>
 <div>
 <img src = "https://github.com/user-attachments/assets/f09d4ace-3bcf-433f-8d13-bbde93c17bd2"/>
  
