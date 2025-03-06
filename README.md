@@ -6,5 +6,10 @@
   <li>Depois foi criada uma função para sortear os amigos</li>
 </ul>
 <br>
-<p></p>Tecnologias usadas</p>
-![images (2)](https://github.com/user-attachments/assets/f09d4ace-3bcf-433f-8d13-bbde93c17bd2)
+<p>Tecnologias usadas</p>
+<div>
+<img src = "https://github.com/user-attachments/assets/f09d4ace-3bcf-433f-8d13-bbde93c17bd2"/>
+ 
+<img src = "https://github.com/user-attachments/assets/f86e2aa6-d5ef-4465-8933-2ef677aacbc3" width="150px"/>
+  
+</div>
